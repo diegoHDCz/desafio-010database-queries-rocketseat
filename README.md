@@ -11,22 +11,7 @@ Isso irá te ajudar a entender e exercitar os diferentes tipos de consultas que 
 No template, você irá encontrar uma aplicação já estruturada (apenas as entidades e repositórios) onde você deverá completar o que falta nas consultas dos dois repositórios.
 
 A aplicação possui dois módulos: `users` e `games`. Um **usuário** pode ter vários jogos e um mesmo **jogo** pode estar associado a vários usuários. 
-
-## Template da aplicação
-
-Para realizar esse desafio, criamos para você esse modelo que você deve utilizar como um template do GitHub.
-
-O template está disponível na seguinte URL: 
-
-[rocketseat-education/ignite-template-database-queries](https://github.com/rocketseat-education/ignite-template-database-queries)
-
-**Dica**: Caso não saiba utilizar repositórios do GitHub como template, temos um guia em **[nosso FAQ](https://www.notion.so/FAQ-Desafios-ddd8fcdf2339436a816a0d9e45767664).**
-
-## Preparando o ambiente para os testes
-
-Para que os testes funcionem, é importante que você crie uma **database no banco Postgres** com o nome `queries_challenge` e substitua os dados de autenticação (caso os seus não sejam os mesmos) no arquivo **ormconfig.json**: 
-
-![https://cdn.discordapp.com/attachments/719251629773422612/874276443515945011/unknown.png](https://cdn.discordapp.com/attachments/719251629773422612/874276443515945011/unknown.png)
+//*
 
 Se você não possui um container do Docker rodando o Postgres, é possível criá-lo com seguinte comando:
 
